@@ -12,5 +12,9 @@ $('.carousel.carousel-slider').carousel({
 var carouselTimer=setInterval(function(){
     $('.carousel').carousel('next');  
 },5000);
- 
-        
+
+// Gallery Button
+$(".gallery").on("click", function(){
+    $("#carouselID").toggle();
+    $("#galleryDiv").toggle()
+})

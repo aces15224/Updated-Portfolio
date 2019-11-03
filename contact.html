@@ -1,50 +1,71 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<html>
+
 <head>
-    <title>Contact</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="./assets/css/style.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
-<header>
-        <div class="wrapper1">
-            <h1 id="Name">Anthony Martin</h1>
-            
-                <ul>
-                    <li class="brdr"><a href="./index.html">About</a></li>
-                    <li class="brdr"><a href="./portfolio.html">Portfolio</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
-            
-            </div>
-    </header>
-
 <body>
-            <div class="wrapper">
-            <h1 class="header1">Contact</h1>
-            <div class="wrapper2">
-
-
-  
-   <form><br>    
-    Name:<br>
-    <input type="text" name="text" value="John Smith"><br> 
-    Email:<br>
-    <input type="text" name="email" value="example@gmail.com"><br>
-    Message<br>
-    <textarea name="Message">enter text here</textarea><br>
-    
-    <input type="submit" value="submit">
-
-
-</form>            
-            </div>
-            
-        
+<header>
+<nav id="nav">
+    <div id="nav-wrapper">
+    <!-- <img src="./assets/images/pimage.jpg" class="brand-logo right hide-on-med-and-down" id="navbarImage"> -->
+    <a href="#" class="brand-logo center">Anthony Martin</a>
+    <div id="navBlue">
+    <ul id="nav-mobile" class="brand-logo center">
+        <li><a href="index.html" class="navLink">Home</a></li>
+        <li><a href="portfolio.html" class="navLink">Portfolio</a></li>
+        <li><a href="contact.html" class="navLink">Contact</a></li>
+    </ul>
+    </div>
+    </div>
+</nav>
+</header>
+<div class="card hoverable ">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="./assets/images/pimage.jpg" id="cardImage">
+          <ul id="contactUL">
+              <h5>Contact Information</h5>
+              <li>Phone Number:<a href="tel:816-284-6887"> 816-284-6887</a></li>
+              <li>Email:<a href="mailto:aces15224@hotmail.com"> aces15224@hotmail.com</a></li>
+              <li>Check out my Resume:<a href="#"> Here</a></li>
+              <li>Visit my LinkedIn Profile:<a href="https://www.linkedin.com/in/anthony-martin-8bb28b196/"> Here</a></li>
+          </ul>
         </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+          <p><a href="#">This is a link</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <form><br>    
+            Name:<br>
+            <input type="text" name="text" value="John Smith"><br> 
+            Email:<br>
+            <input type="text" name="email" value="example@gmail.com"><br>
+            Message<br>
+            <textarea name="Message">enter text here</textarea><br>
+            <input type="submit" value="submit">
+          </form>  
+        </div>
+      </div>
+
+    
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="./portfolio.js"></script>
+
+
+
+
 </body>
-<div class="footer">
-    <h6>Copyright&#169;</h6>
-</div>
 </html>

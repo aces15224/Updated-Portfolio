@@ -3,6 +3,23 @@
     width: 600px;
     margin: 20px auto;
 }
+#galleryDiv{
+    height:500px;
+    width:600px;
+    margin:20px auto;
+    background-color:yellow;
+    display:none;
+
+}
+.gallery{
+    margin: 0px auto;
+}
+.gImage{
+    max-height:150px;
+    height: auto;
+    width:auto;
+    position:relative;
+}
 
 #profile{
     height: 500px;
@@ -18,7 +35,7 @@ body{
     background-size: cover;
     background-position: center; 
     width: auto;
-    height: 100%;
+    height: auto;
     background-color:black;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -55,7 +72,6 @@ a.brand-logo.center{
     font-family: 'Saira Extra Condensed', sans-serif;
     font-weight: 800;
     margin-top:25px;
-    
 }
 
 #navbarImage{
@@ -65,3 +81,78 @@ a.brand-logo.center{
     max-height:95px;
     
 }
+#cardImage{
+    max-width:200px;
+    float:left;
+    border-radius:50%;
+    border:5px lightblue solid;
+}
+div.card{
+    max-width:600px;
+    height:500px;
+    margin: 20px auto;
+    background-color:black;
+}
+div.card-content{
+    background-color:white;
+    margin-top:110px;
+    height:200px;
+}
+#contactUL{
+    float:right;
+    color:white;
+}
+
+input[type=text] {
+   
+    margin: 10px auto;
+    width: 99.5%;
+}
+input[type=submit]{
+    background-color: #4aaaa5;
+    padding: 15px 32px;
+    color: white;
+}
+
+textarea{
+    margin: 10px auto;
+    width:99.1%;
+    height: 150px;
+}
+
+
+/* Responsiveness  */
+
+@media screen and (max-width: 1289px) {
+#profile img{
+    width:550px;
+    height:450px;
+    margin-top: 19px;
+    margin-left: 22px;
+}
+}
+
+
+@media screen and (max-width: 977px) {
+a.brand-logo.center{
+    font-size: 2.5em; 
+    letter-spacing: 1px;
+    margin: 0px;  
+}    
+}
+
+@media screen and (max-width: 740px) {
+    a.brand-logo.center{
+        font-size: 2em; 
+        letter-spacing: 1px;
+        margin: 0px;  }
+        
+}
+
+@media screen and (max-width: 601px) {
+    a.brand-logo.center{
+        font-size: 1.75em; 
+        letter-spacing: .5px;
+        margin: 0px;  }
+        
+    }

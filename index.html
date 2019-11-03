@@ -18,10 +18,10 @@
 <header>
 <nav id="nav">
     <div id="nav-wrapper">
-    <img src="./assets/images/pimage.jpg" class="brand-logo right" id="navbarImage">
+    <img src="./assets/images/pimage.jpg" class="brand-logo right hide-on-med-and-down" id="navbarImage">
     <a href="#" class="brand-logo center">Anthony Martin</a>
     <div id="navBlue">
-    <ul id="nav-mobile" class="brand-logo center hide-on-med-and-down">
+    <ul id="nav-mobile" class="brand-logo center">
         <li><a href="index.html" class="navLink">Home</a></li>
         <li><a href="portfolio.html" class="navLink">Portfolio</a></li>
         <li><a href="contact.html" class="navLink">Contact</a></li>
@@ -49,11 +49,12 @@ var backgrounds =[
 "./assets/images/pcback3.jpg"
 ];
 
+// backgrounds.addClass("backgroundClass");
 var current = -1;
 var showImage;
 
 function displayImage() {
-    $("#profile").html("<img src=" + backgrounds[current] + " width='600px'>");
+    $("#profile").html("<img src=" + backgrounds[current] + ">");
 }
 function nextImage() {
     current++;
