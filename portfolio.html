@@ -13,11 +13,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <style>
+        h2{
+                position:relative;
+                bottom: 30px;
+                font-size: 5em;
+            } 
+        p{
+            position:relative;
+            top: -40px;
+        }  
         @media screen and (max-width: 1000px) {
             body{ 
-                background-image:url("./assets/images/bk3.jpg")
-            }       
-}
+                background-image:url("./assets/images/bk3.jpg");
+            } 
+        }
     </style>
 </head>
 <body>
@@ -37,12 +46,12 @@
 </nav>
 </header>
 <div id="galleryDiv">
-    <a href="https://rbriekhof.github.io/Project_1/"><img class="gImage" src="./assets/images/d2.jpg"></a>
-    <a href="https://aces15224.github.io/Trivia-Game/"><img class="gImage" src="./assets/images/d3.jpg"></a>
-    <a href="https://aces15224.github.io/Giphy-API/"><img class="gImage" src="./assets/images/d4.jpg"></a>  
-    <a href="https://aces15224.github.io/WordGuess/"><img class="gImage" src="./assets/images/d5.jpg"></a> 
-    <a href="https://aces15224.github.io/Train-Time/"><img class="gImage" src="./assets/images/d6.jpg"></a> 
-    <a href="https://rbriekhof.github.io/Project_1/"><img class="gImage" src="./assets/images/d7.jpg"></a>
+    <a href="https://github.com/Rbriekhof/Project_1"><img class="gImage" src="./assets/images/d2.jpg"></a>
+    <a href="https://github.com/aces15224/Trivia-Game"><img class="gImage" src="./assets/images/d3.jpg"></a>
+    <a href="https://github.com/aces15224/Giphy-API"><img class="gImage" src="./assets/images/d4.jpg"></a>  
+    <a href="https://github.com/aces15224/WordGuess"><img class="gImage" src="./assets/images/d5.jpg"></a> 
+    <a href="https://github.com/aces15224/Train-Time"><img class="gImage" src="./assets/images/d6.jpg"></a> 
+    <a href="https://github.com/aces15224/unit-4-game"><img class="gImage" src="./assets/images/d7.jpg"></a>
 
     <button id="gallery">Click to see Slideshow</button>
  </div>
@@ -51,22 +60,36 @@
     <div class="carousel-fixed-item center">
         <button class="gallery">Click to see gallery</button>
     </div>
-    <div class="carousel-item red white-text" href="#one!">
-        <a href="https://rbriekhof.github.io/Project_1/"><img class="cImage" src="./assets/images/d2.jpg"></a>
+    <div class="carousel-item red white-text">
+        <img class="cImage" src="./assets/images/d2.jpg" onclick="window.open('https://rbriekhof.github.io/Project_1/')">
         <h2>The Movie Game</h2>
+        <p>Click Picture for a Live Demo</p>
     </div>
     <div class="carousel-item amber white-text" href="#two!">
-        <a href="https://aces15224.github.io/Trivia-Game/"><img class="cImage" src="./assets/images/d3.jpg"></a>
+        <img class="cImage" src="./assets/images/d3.jpg" onclick="window.open('https://aces15224.github.io/Trivia-Game/')">
         <h2>CSS-TRIVIA</h2>
+        <p>Click Picture for a Live Demo</p>
     </div>
     <div class="carousel-item green white-text" href="#three!">
-        <a href="https://aces15224.github.io/Giphy-API/"><img class="cImage" src="./assets/images/d4.jpg"></a>
+        <img class="cImage" src="./assets/images/d4.jpg" onclick="window.open('https://aces15224.github.io/Giphy-API/')" >
         <h2>Movie Gifs</h2>
+        <p>Click Picture for a Live Demo</p>
     </div>
     <div class="carousel-item blue white-text" href="#four!">
-        <a href="https://aces15224.github.io/WordGuess/"><img class="cImage" src="./assets/images/d5.jpg"></a>         
+        <img class="cImage" src="./assets/images/d5.jpg" onclick="window.open('https://aces15224.github.io/WordGuess/')" >         
         <h2>Mafia Hangman</h2>
+        <p>Click Picture for a Live Demo</p>
     </div>
+    <div class="carousel-item green white-text" href="#one!">
+        <img class="cImage" src="./assets/images/d6.jpg" onclick="window.open('https://aces15224.github.io/Train-Time/')">
+        <h2>Train Scheduler</h2>
+        <p>Click Picture for a Live Demo</p>
+    </div>
+    <div class="carousel-item amber white-text" href="#two!">
+        <img class="cImage" src="./assets/images/d7.jpg"onclick="window.open('https://aces15224.github.io/unit-4-game/')">
+        <h2>Crystal Game</h2>
+        <p>Click Picture for a Live Demo</p>
+        </div>
   </div>
     
 

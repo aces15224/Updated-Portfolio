@@ -64,6 +64,8 @@ a.brand-logo.center{
 
 .gallery{
     margin: 0px auto;
+    position:relative;
+    top: 10px;
 }
 
 #gallery{
@@ -86,10 +88,6 @@ a.brand-logo.center{
     width: 600px;
     margin: 20px auto;
     
-}
-h6{
-    padding:0px;
-    margin-bottom:25px;
 }
 
 
