@@ -12,6 +12,13 @@
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+        @media screen and (max-width: 1000px) {
+            body{ 
+                background-image:url("./assets/images/bk3.jpg")
+            }       
+}
+    </style>
 </head>
 <body>
 <header>
@@ -29,13 +36,15 @@
     </div>
 </nav>
 </header>
-<div class="row" id="galleryDiv">
+<div id="galleryDiv">
     <a href="https://rbriekhof.github.io/Project_1/"><img class="gImage" src="./assets/images/d2.jpg"></a>
     <a href="https://aces15224.github.io/Trivia-Game/"><img class="gImage" src="./assets/images/d3.jpg"></a>
     <a href="https://aces15224.github.io/Giphy-API/"><img class="gImage" src="./assets/images/d4.jpg"></a>  
     <a href="https://aces15224.github.io/WordGuess/"><img class="gImage" src="./assets/images/d5.jpg"></a> 
     <a href="https://aces15224.github.io/Train-Time/"><img class="gImage" src="./assets/images/d6.jpg"></a> 
-    <button class="gallery">Click to see gallery</button>
+    <a href="https://rbriekhof.github.io/Project_1/"><img class="gImage" src="./assets/images/d7.jpg"></a>
+
+    <button id="gallery">Click to see Slideshow</button>
  </div>
 
 <div class="carousel carousel-slider center center-align" id="carouselID">
@@ -44,19 +53,19 @@
     </div>
     <div class="carousel-item red white-text" href="#one!">
         <a href="https://rbriekhof.github.io/Project_1/"><img class="cImage" src="./assets/images/d2.jpg"></a>
-        <p class="white-text">This is your first panel</p>
+        <h2>The Movie Game</h2>
     </div>
     <div class="carousel-item amber white-text" href="#two!">
         <a href="https://aces15224.github.io/Trivia-Game/"><img class="cImage" src="./assets/images/d3.jpg"></a>
-        <p class="white-text">This is your second panel</p>
+        <h2>CSS-TRIVIA</h2>
     </div>
     <div class="carousel-item green white-text" href="#three!">
         <a href="https://aces15224.github.io/Giphy-API/"><img class="cImage" src="./assets/images/d4.jpg"></a>
-        <p class="white-text">This is your third panel</p>
+        <h2>Movie Gifs</h2>
     </div>
     <div class="carousel-item blue white-text" href="#four!">
         <a href="https://aces15224.github.io/WordGuess/"><img class="cImage" src="./assets/images/d5.jpg"></a>         
-        <p class="white-text">This is your fourth panel</p>
+        <h2>Mafia Hangman</h2>
     </div>
   </div>
     

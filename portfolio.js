@@ -1,3 +1,5 @@
+
+
 // Carousel // Slide Timer //
 
 $(document).ready(function(){
@@ -18,3 +20,16 @@ $(".gallery").on("click", function(){
     $("#carouselID").toggle();
     $("#galleryDiv").toggle()
 })
+
+$("#gallery").on("click", function(){
+    $("#galleryDiv").toggle()
+    $("#carouselID").toggle();
+})
+
+
+
+
+
+
+
+

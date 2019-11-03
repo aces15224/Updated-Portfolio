@@ -1,33 +1,4 @@
-#carouselID{
-    height: 500px;
-    width: 600px;
-    margin: 20px auto;
-}
-#galleryDiv{
-    height:500px;
-    width:600px;
-    margin:20px auto;
-    background-color:yellow;
-    display:none;
-
-}
-.gallery{
-    margin: 0px auto;
-}
-.gImage{
-    max-height:150px;
-    height: auto;
-    width:auto;
-    position:relative;
-}
-
-#profile{
-    height: 500px;
-    width: 600px;
-    margin: 20px auto;
-    
-}
-
+/* CSS Pages Shared */
 body{
     background-image: url("../images/codeBackground4.jpg");
     background-repeat: no-repeat;
@@ -42,14 +13,10 @@ body{
 }
 
 #nav-wrapper{
-    /* font-family: 'Anton', sans-serif; */
     font-family: 'Monoton', cursive;
     background-color:white;
     height:100px;
     border-bottom: 35px solid black;
-    /* #3fde57 */
-
-    /* #4aaaa5; */
 }
 
 #nav, header{
@@ -59,7 +26,6 @@ body{
 }
 
 a.brand-logo.center{
-    /* color:#696969; */
     margin:auto;
     color:#4aaaa5;
     font-size: 2.75em; 
@@ -78,43 +44,103 @@ a.brand-logo.center{
     margin-top:3px;
     border-radius:50%;
     border:1px lightblue solid;
-    max-height:95px;
+    max-height:95px;   
+}
+
+/* CSS Profile Page */
+
+#carouselID{
+    height: 500px;
+    width: 600px;
+    margin: 20px auto;
+}
+#galleryDiv{
+    height:500px;
+    width:550px;
+    margin:20px auto;
+    background-color:yellow;
+    display:none;
+}
+
+.gallery{
+    margin: 0px auto;
+}
+
+#gallery{
+    width: 100%;
+    color:white;
+    background-color:black;
+}
+
+.gImage{
+    margin: 5px 20px;
+    height: auto;
+    width:235px;
+    float:left;
+}
+
+
+
+#profile{
+    height: 500px;
+    width: 600px;
+    margin: 20px auto;
     
 }
+h6{
+    padding:0px;
+    margin-bottom:25px;
+}
+
+
+/* Contact Card & Form */
+
 #cardImage{
-    max-width:200px;
+    padding:0px;
+    margin-top:30px;
+    margin-bottom:25px;
+    margin-left: 20px;
+    max-width:250px;
     float:left;
     border-radius:50%;
     border:5px lightblue solid;
 }
+
+
 div.card{
-    max-width:600px;
+    max-width:550px;
     height:500px;
     margin: 20px auto;
     background-color:black;
 }
+
 div.card-content{
     background-color:white;
-    margin-top:110px;
     height:200px;
+  
 }
+
 #contactUL{
     float:right;
     color:white;
+    margin-top:45px;
+    margin-right: 20px;
 }
 
-input[type=text] {
-   
-    margin: 10px auto;
-    width: 99.5%;
+form{
+    color:  #4aaaa5;
+    height: 400px;
 }
+
+
 input[type=submit]{
     background-color: #4aaaa5;
     padding: 15px 32px;
     color: white;
+    border: 1.5px solid gray;
 }
 
-textarea{
+#message{
     margin: 10px auto;
     width:99.1%;
     height: 150px;
@@ -131,7 +157,6 @@ textarea{
     margin-left: 22px;
 }
 }
-
 
 @media screen and (max-width: 977px) {
 a.brand-logo.center{
