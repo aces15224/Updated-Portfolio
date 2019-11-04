@@ -81,7 +81,9 @@ a.brand-logo.center{
     float:left;
 }
 
-
+p{
+    position:relative;
+}
 
 #profile{
     height: 500px;
@@ -154,8 +156,11 @@ input[type=submit]{
     margin-top: 19px;
     margin-left: 22px;
 }
-}
 
+#carouselID, div.carousel-item, .cImage{
+    width: 550px;
+}
+}
 @media screen and (max-width: 977px) {
 a.brand-logo.center{
     font-size: 2.5em; 
@@ -171,11 +176,46 @@ a.brand-logo.center{
         margin: 0px;  }
         
 }
+@media screen and (max-width: 613px) {
+    #profile img{
+        width: 525px;
+        margin-left: 28px;
+    }
+}
 
 @media screen and (max-width: 601px) {
     a.brand-logo.center{
         font-size: 1.75em; 
         letter-spacing: .5px;
         margin: 0px;  }
+    #galleryDiv{
+        width:500px;
+    }
+    .gImage{
+        margin: 7px;
+    }
+        
         
     }
+@media screen and (max-width: 589px) {
+    #profile img{
+        width: 520px;
+        margin-left: 28px;
+    }
+    #carouselID, div.carousel-item, .cImage{
+        width: 535px;
+    }
+}
+@media screen and (max-width: 570px) {
+    
+    #carouselID, div.carousel-item, .cImage{
+        width: 490px;
+    }
+}
+
+@media screen and (max-width: 529px) {
+    #profile img{
+        width: 515px;
+        margin:auto;
+    }
+}
